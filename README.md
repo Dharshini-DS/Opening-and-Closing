@@ -50,7 +50,7 @@ import cv2
 
 text_image = np.zeros((100,540),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX = 3
-cv2.putText(text_image," Aashima.S",(5,70),font,2,(255),5,cv2.LINE_AA)
+cv2.putText(text_image," Dharshini D.S",(5,70),font,2,(255),5,cv2.LINE_AA)
 plt.title("Original Image")
 plt.imshow(text_image)
 plt.axis('off')
@@ -85,7 +85,7 @@ plt.axis('off')
 
 ### Display the result of Closing
 
-![output](./3.png)
+![output](./4.png)
 
 ## Result
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
